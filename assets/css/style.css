@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    
+}
+*{ box-sizing: border-box; }
+
+.col-1{ width: 8.33%; }
+.col-2{ width: 16.66%; }
+.col-3{ width: 25%; }
+.col-4{ width: 33.33%; }
+.col-5{ width: 41.66%; }
+.col-6{ width: 50%; }
+.col-7{ width: 58.33%; }
+.col-8{ width: 66.66%; }
+.col-9{ width: 75%; }
+.col-10{ width: 83.33%; }
+.col-11{ width: 91.66%; }
+.col-12{ width: 100%; }
+
+[class*='col-'] {
+    float: left;
+    border: 1px solid;
+}
+.row:after{
+    content: ' ';
+    clear: both;
+    display: block;
+}
+
+.wrapper{
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.text_center{
+    text-align: center;
+}
+.text_right{
+    text-align: right;
+}
+.text_capital{
+    text-transform: capitalize;
+}
+.after_each_product{
+    height: 10px;
+    background-color: darkslategray;
+    border: 0;
+}
+.form input{
+    width: 70%;
+    height: 30px;
+}
+.form .col-3{
+    margin: 5px 0px;
+    border: 0;
+}
+.form .col-1{
+    margin: 5px 0px;
+    border: 0;
+}.form .col-8{
+    margin: 5px 0px;
+    border: 0;
+}
+.form label{
+    height: 30px;
+}
+.add_product_form label{
+    
+    text-transform: capitalize;
+}
+.sunmit_btn{
+    background-color: darkgreen;
+    color: #fff;
+    border: 0;
+}
+.img_viewer img{
+    width: 400px;
+    height: 300px;
+    
+}
+.img_responsive{
+    width: 100% auto;
+    height: auto;
+}
+.no_border{
+    border: 0;
+}
+.no_border_top{
+    border-top: 0;
+}
+.no_border_bottom{
+    border-bottom: 0;
+}
+.no_border_left{
+    border-left: 0;
+}
+.no_border_right{
+    border-right: 0;
+}
+.ul_for_menu{
+    list-style: none;
+}
+.ul_for_menu li{
+    width: 100%;
+    background-color: darkslategray;
+    color: #fff;
+    margin: 2px;
+    padding: 10px;
+    margin-left: 0px;
+}
+.text_justify{
+    text-align: justify;
+}
+/*color*/
+
+
+.highlight{
+     color: firebrick;
+}
+.header_top_height{ height: 40px; }
+.header_height{ height: 200px; }
+.menu_height{ height: 50px; }
+.addvertise_height{ padding: 10px 0;  }
+.post_content_height{height: 200px;}
+.content_height{ height: 600px; }
+.big_footer_height{ height: 250px; }
+.footer_height{ height: 40px; }
+
+.margin_left{
+    margin-right: 50px;
+}
+
+
+/*@media screen and (max-width: 700px) {
+    body{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    body{
+        background-color: green;
+    }
+}*/
+/*@media screen and (min-width: 400px) and (max-width: 500px){
+     body{
+        background-color: green;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
